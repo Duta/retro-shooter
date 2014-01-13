@@ -50,11 +50,9 @@ class RetroShooter
       @drawVerticalLine color, x, height
 
   raycast: (dirX, dirY) ->
-    {
-      color: 'blue', #TODO
-      hitX: 2, #TODO
-      hitY: 2 #TODO
-    }
+    color: 'blue', #TODO
+    hitX: 2, #TODO
+    hitY: 2 #TODO
 
   drawVerticalLine: (color, x, height) ->
     @drawLine color, x + 0.5, @height/2 - height, x + 0.5, @height/2 + height
